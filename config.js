@@ -8,28 +8,28 @@ module.exports = {
     /**
      * bot details and parameters
      */
-    botname: process.env.BotName || "Qᴜᴇᴇɴ ᴀɴʏᴀ ᴠ2",
-    footer: process.env.Footer || "© 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 𝐐𝐮𝐞𝐞𝐧 𝐀𝐧𝐲𝐚 𝐁𝐨𝐭",
-    prefa: process.env.Prefix || "-",
+    botname: process.env.BotName || "𝚍𝚎𝚜𝚜𝚊",
+    footer: process.env.Footer || "© 𝚙𝚘𝚠𝚎𝚛𝚎𝚍 𝚋𝚢 𝚍𝚎𝚜𝚜𝚊 𝚋𝚘𝚝",
+    prefa: process.env.Prefix || "*",
     themeemoji: process.env.ThemeEmoji || "🎐",
 
     /**
      * owner details and parameters
      */
-    ownername: process.env.Owner_Name || "Pika~Kun",
-    ownernumber: process.env.Owner_Number || "916900904828",
-    instagramId: process.env.Insta || "3.69_pika",
+    ownername: process.env.Owner_Name || "𝚍𝚎𝚊𝚟𝚘",
+    ownernumber: process.env.Owner_Number || "91𝟽𝟿𝟶𝟽𝟽𝟹𝟾𝟷𝟷𝟸",
+    instagramId: process.env.Insta || "𝚍𝚎𝚊𝚟𝚘",
 
     /**
      * other details and parameters
      */
-    author: process.env.Author || "𝐏𝐢𝐤𝐚𝐁𝐨𝐭𝐳 🌚🌙",
-    packname: process.env.PackName || "𝕼𝖚𝖊𝖊𝖓 𝕬𝖓𝖞𝖆 𝖁2 𝕾𝖙𝖎𝖈𝖐𝖊𝖗 𝕻𝖆𝖈𝖐 🪀",
+    author: process.env.Author || "𝚍𝚎𝚜𝚜𝚊👀",
+    packname: process.env.PackName || "𝚍𝚎𝚜𝚜𝚊🪀",
     socialLink: process.env.Web || "https://github.com/PikaBotz",
-    groupLink: process.env.GcLink || "https://chat.whatsapp.com/E490r0wSpSr89XkCWeGtnX",
+    groupLink: process.env.GcLink || "https://chat.whatsapp.com/KlCbuu0WrmFFw0tlAW8jeQ",
     warns: Number(process.env.Warn_Limits) || 3,
     cooldown: Number(process.env.Cooldown_Timer_Seconds) || 5, // default cooldown time per command in seconds
-    mongoUrl: process.env.MongoDB || "YOUR_MONGODB_URL",
+    mongoUrl: process.env.MongoDB || "mongodb+srv://<db_username>:EXftPuvZL34I3oQr@cluster0.6a9nr.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
     sessionId: process.env.SESSION_ID || "YOUR_SESSION_ID",
 
     /**
@@ -37,7 +37,7 @@ module.exports = {
      */
     image_1: readFileSync('./lib/Assets/image_1.jpg'), // primary image
     image_2: readFileSync('./lib/Assets/image_2.jpg'), // secondry image
-    imageUrl: "https://i.ibb.co/ZKKSZHT/Picsart-23-06-24-13-36-01-843.jpg", // image url, to replace to your url upload your image to https://imgbb.com
+    imageUrl: "https://cdn.ironman.my.id/i/9e9ofk.jpeg", // image url, to replace to your url upload your image to https://imgbb.com
     imageMentionUrl: "https://i.ibb.co/ZKKSZHT/Picsart-23-06-24-13-36-01-843.jpg", // image for mention reply audio media
     aliveMedia: readFileSync("./lib/Assets/aliveMedia.mp4"),
     menuMedia: readFileSync('./lib/Assets/menuMedia.mp4'),
